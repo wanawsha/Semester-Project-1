@@ -1,2 +1,60 @@
 @import url("/css/style.css");
 @import url("/css/variables.css");
+
+main {
+    background-color: #E2F3FF;
+}
+
+
+.departments-home {
+    background-color: var(--primary-color);
+}
+
+.robotics-container {
+    background-color: #DDF1FF;
+    color: var(--primary-color);
+}
+
+.biology-container {
+    background-color: #FFDADA;
+    color: #780F0F;
+}
+
+.cosmology-container {
+    background-color: #E3DDFF;
+    color: #404166;
+}
+
+.evolution-container {
+    background-color: #FFF1DE;
+    color: #6A491B;
+}
+
+.ecology-container {
+    background-color: #E7FFDC;
+    color: #274B16;
+}
+
+.resources-container {
+    color: var(--secondary-text-color);
+}
+
+.resources-container h1 {
+    color: var(--primary-color);
+}
+.for-kids {
+    background-color: #485369;
+}
+
+.for-teachers {
+    background-color: #AA8D7C;
+}
+
+.for-researchers {
+    background-color: #1E3F89;
+}
+
+.about-us-home {
+    background-color: var(--primary-color);
+    color: var(--secondary-text-color);
+}

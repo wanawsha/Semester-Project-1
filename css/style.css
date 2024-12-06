@@ -7,6 +7,10 @@ h1, h2, h3 {
     text-decoration: underline;
 }
 
+img {
+    width: 100%;
+}
+
 nav {
     background-color: #BFD0E0;
 }
@@ -20,13 +24,19 @@ a  {
     color: var(--primary-text-color);
     font-family: "Tektur", sans-serif;
     font-weight: 600;
-    
 }
 
 header {
     background-color: var(--secondary-color);
 }
 
+footer {
+    background-color: var(--secondary-color);
+}
 footer li {
     display: block;
+}
+
+.current-page {
+    text-decoration: underline;
 }
