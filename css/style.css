@@ -11,6 +11,11 @@ img {
     width: 100%;
 }
 
+.logo {
+    max-width: 3em;
+}
+
+
 nav {
     background-color: #BFD0E0;
 }
@@ -28,11 +33,14 @@ a  {
 
 header {
     background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: row;
 }
 
 footer {
     background-color: var(--secondary-color);
 }
+
 footer li {
     display: block;
 }
