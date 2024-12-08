@@ -1,6 +1,10 @@
 @import url("/css/style.css");
 @import url("/css/variables.css");
 
+body {
+    margin: 0px;
+}
+
 main {
     background-color: #E2F3FF;
 }

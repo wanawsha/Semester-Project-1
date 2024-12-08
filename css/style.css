@@ -13,15 +13,24 @@ img {
 
 .logo {
     max-width: 3em;
+    height: auto;
 }
-
 
 nav {
     background-color: #BFD0E0;
+    width: 100%;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: right; 
 }
 
 nav li {
-    display: inline-block;
+    display: inline-block; 
+}
+
+nav a {
+    margin: 0.7em;
+    font-size: 1.2em;
 }
 
 a  {
@@ -34,7 +43,9 @@ a  {
 header {
     background-color: var(--secondary-color);
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0em 1.3em;
 }
 
 footer {
