@@ -2,7 +2,7 @@
 @import url("/css/variables.css");
 
 body {
-    background-color: var(--primary-color);
+    background-color: #BB6637;
     margin: 0px;
 }
 
@@ -30,8 +30,6 @@ body {
     flex-direction: column;
     max-width: 500px;
     margin: 0em 9em;
-    color: #fff;
-
 }
 
 .welcome-events {
