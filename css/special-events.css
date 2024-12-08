@@ -2,11 +2,19 @@
 @import url("/css/variables.css");
 
 body {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
+    margin: 0px;
 }
 
-.events-container {
-
+.events-wrapper {
+    /*display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin: 2em 6em;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0em 7em 5em 7em;
 }
 
 .events-section {
@@ -14,13 +22,16 @@ body {
     max-width: 550px;
     border-radius: 0.3em;
     padding: 1em;
-    margin: 2em;
-    margin: 2em auto; 
+    margin: 1em; 
 }
 
 .headline {
     display: flex;
     flex-direction: column;
+    max-width: 500px;
+    margin: 0em 9em;
+    color: #fff;
+
 }
 
 .welcome-events {
@@ -29,6 +40,14 @@ body {
     height: auto;
     background-size: cover; 
     background-position: center center;
-    min-height: 70vh;
-    
+    min-height: 75vh;   
+}
+
+.welcome-events h1 {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.3em;
+    color: #fff;
 }

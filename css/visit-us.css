@@ -1,2 +1,45 @@
 @import url("/css/style.css");
 @import url("/css/variables.css");
+
+
+body {
+    background-color: var(--primary-color);
+    margin: 0em;
+}
+
+.visit-info {
+    background-color: #fff;
+    max-width: 1000px;
+    margin: 4em auto;
+    border-radius: 0.4em;
+    padding: 2.5em;
+}
+
+.visit-header {
+    background-image: url(/images/visit-us.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover; 
+    background-position: center center;
+    min-height: 75vh;
+}
+
+.visit-headline {
+    max-width: 1050px;
+    color: #fff;
+    margin: 2em auto 0em auto;
+
+}
+
+  h1 {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.3em;
+    color: #fff;
+}
+
+
+
+
