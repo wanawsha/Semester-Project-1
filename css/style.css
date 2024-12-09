@@ -58,4 +58,5 @@ footer li {
 
 .current-page {
     text-decoration: underline;
+    color: var(--primary-color);
 }

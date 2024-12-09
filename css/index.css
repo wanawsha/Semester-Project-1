@@ -9,53 +9,150 @@ main {
     background-color: #E2F3FF;
 }
 
-
-.departments-home {
-    background-color: var(--primary-color);
+.home-welcome {
+    background-image: url(/images/star-exhibition.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover; 
+    background-position: center center;
+    min-height: 85vh;
+    margin: 0%;
 }
 
-.robotics-container {
+.home-welcome h1 {
+    font-family: "IBM Plex Sans Condensed";
+    text-decoration: none;
+    font-weight: 300;
+    position: absolute;
+    max-width: 50%;
+    top: 80%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: #fff;
+
+}
+
+#visit-us-cta {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    background-color: var(--secondary-color);
+    border: 0.1em solid #fff;
+    padding: 0.1em 1em;
+    border-radius: 0.2em;
+}
+
+
+.departments {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 3em 0em;
+}
+
+.departments-headline {
+    margin: 1em 5em 0.5em 4em;
+    max-width: 850px;
+
+ }
+
+ .departments-main {
+    display: flex;
+    flex-direction: row;
+    margin: 2em;
+ }
+
+ .departments-container {
+    max-width: 15em;
+    width: 100%;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0.2em;
+ }
+
+
+ #robotics-home {
     background-color: #DDF1FF;
     color: var(--primary-color);
+    
 }
 
-.biology-container {
+#biology-home {
     background-color: #FFDADA;
     color: #780F0F;
 }
 
-.cosmology-container {
+#cosmology-home {
     background-color: #E3DDFF;
     color: #404166;
 }
 
-.evolution-container {
+#evolution-home {
     background-color: #FFF1DE;
     color: #6A491B;
 }
 
-.ecology-container {
+#ecology-home {
     background-color: #E7FFDC;
     color: #274B16;
 }
 
-.resources-container {
+.resources {
     color: var(--secondary-text-color);
+    max-width: 1300px;
+    margin: auto;
+   
 }
 
-.resources-container h1 {
+.resources img {
+    max-width: 50%;
+}
+.resources h1 {
     color: var(--primary-color);
-}
-.for-kids {
-    background-color: #485369;
+    margin: 1.5em;
+    font-size: 2em;
 }
 
-.for-teachers {
-    background-color: #AA8D7C;
+.resources h3 {
+    font-size: 1.5em;
+}
+
+.for-kids {
+    background-color: #485369;   
 }
 
 .for-researchers {
     background-color: #1E3F89;
+    border-radius: 0.3em;
+}
+
+.for-teachers {
+    background-color: #AA8D7C;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1em;
+    border-radius: 0.3em;
+}
+
+.for-kids, .for-researchers {
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+    border-radius: 0.3em;
+}
+
+.for-kids img, .for-researchers img {
+    border-radius: 0.3em 0em 0em 0.3em;
+}
+
+.for-teachers img {
+    border-radius:  0em 0.3em 0.3em 0em;
+}
+.resources-info {
+    display: block;
+    padding: 1.5em;
 }
 
 .about-us-home {
