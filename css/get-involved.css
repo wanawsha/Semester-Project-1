@@ -2,5 +2,48 @@
 @import url("/css/variables.css");
 
 body {
-    
+    margin: 0%;
+    background-color: var(--primary-color);
+}
+
+.get-involved-welcome {
+    background-image: url(/images/get-involved.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.get-involved-welcome h1 {
+    position: absolute;
+    top: 35%;
+    left: 43%;
+    color: #fff;
+    font-size: 2em;
+}
+
+.get-involved-welcome p {
+    font-weight: 300;
+    position: absolute;
+    max-width: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.get-involved-info {
+    background-color: #fff;
+    max-width: 70%;
+    margin: 5em auto;
+    padding: 2em;
+    border-radius: 0.5em;
+}
+
+.get-involved-info h3 {
+    font-size: 1.5em;
+}
+
+.get-involved-info div {
+    line-height: 2;
 }

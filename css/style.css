@@ -49,13 +49,24 @@ header {
 }
 
 footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
     background-color: var(--secondary-color);
+    padding: 1em;
 }
 
 footer li {
     display: block;
 }
 
+.hours {
+    line-height: 0.5em;
+}
+
+.footer-list {
+    line-height: 2em;
+}
 .current-page {
     text-decoration: underline;
     color: var(--primary-color);

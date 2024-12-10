@@ -163,4 +163,6 @@ main {
 .about-us-home {
     background-color: var(--primary-color);
     color: var(--secondary-text-color);
+    padding: 4em 10em 4em 10em;
+    line-height: 2;
 }
