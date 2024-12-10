@@ -1,2 +1,86 @@
 @import url("/css/style.css");
 @import url("/css/variables.css");
+
+body {
+    margin: 0%;
+    background-color: var(--primary-color);
+}
+
+
+
+.contact-main {
+    display: flex;
+    flex-direction: row;
+    padding: 7em;
+    background-color: var(--primary-color);
+
+}
+.contact-info, .contact-form {
+    background-color: #fff;
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    margin: 1em;
+    border-radius: 0.5em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+.contact-info {
+    padding: 2em;
+    line-height: 2em;
+}
+
+.contact-form {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.contact-form input, .contact-form textarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em 10em 1em 10em;
+}
+
+#name, #email, #message {
+    margin-top: 1em;
+}
+
+input {
+    margin-bottom: 1.2em;
+}
+#message {
+    display: flex;
+    flex-direction: row;
+    max-width: 200px;
+    max-height: 50px;
+    margin-bottom: 1em;
+}
+
+.contact-welcome {
+    background-image: url(/images/get-involved.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.contact-welcome h1 {
+    position: absolute;
+    top: 38%;
+    left: 43%;
+    color: #fff;
+    font-size: 2.5em;
+}
+
+.cta {
+    background-color: var(--primary-color);
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 0.5em;
+}
