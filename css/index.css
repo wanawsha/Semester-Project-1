@@ -157,6 +157,7 @@ main {
 .resources-info {
     display: block;
     padding: 1.5em;
+    line-height: 2em;
 }
 
 .about-us-home {
