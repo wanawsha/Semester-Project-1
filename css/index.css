@@ -36,7 +36,7 @@ main {
 #visit-us-cta {
     position: absolute;
     top: 48%;
-    left: 50%;
+    left: 49%;
     transform: translate(-50%, -50%);
     font-size: 2em;
     background-color: var(--secondary-color);
@@ -54,13 +54,17 @@ main {
 
 .departments-headline {
     margin: 1em 5em 0.5em 4em;
-    max-width: 850px;
-
+    width: 70%;
  }
+
+.departments-headline h1 {
+    font-size: 2em;
+}
 
  .departments-main {
     display: flex;
     flex-direction: row;
+    /*flex-wrap: wrap;*/
     margin: 2em;
  }
 
