@@ -71,3 +71,21 @@ img {
 .welcome-exhibits-info h3 {
     font-size: 1.8em;
 }
+
+@media (max-width: 600px) {
+
+    .welcome-exhibits-info {
+        padding: 1em;
+    }
+
+    .exhibition-space {
+        display: inline-block;
+        margin: 1em;
+    }
+
+    .exhibition-space img {
+        margin-left: 27%;
+        border-radius: 0%;
+        padding-top: 0.5em;
+    }
+}

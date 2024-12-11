@@ -163,3 +163,94 @@ main {
     padding: 4em 10em 4em 10em;
     line-height: 2;
 }
+
+@media (max-width: 600px) {
+
+  
+    .home-welcome {
+        background-size: 100% 30vh;
+
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    .home-welcome h1 {
+        font-size: 1.5em;
+        color: var(--primary-color);
+        max-width: 70vw;
+        left: 50%;   
+    }
+
+    .for-kids, .for-researchers, .for-teachers {
+        display: flex;
+        flex-direction: column;
+        margin: 0.5em;
+        border-radius: 0px;
+    }
+
+    .resources h1 {
+        text-align: center;
+    
+    }
+
+    .departments-main {
+        display: inline;
+    }
+
+    .departments {
+        padding-top: 1em;
+    }
+
+    .departments-container {
+        margin: 1em auto;
+        padding: 1em 2em;
+        
+    }
+
+    .about-us-home {
+        padding: 1em;
+    }
+}
+
+@media (min-width: 601px) and (max-width:800px) {
+    
+
+
+    .departments-main {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 9%; 
+        padding: 1em 2em;
+    }
+
+    .departments-container {
+        
+    }
+
+
+    .for-kids, .for-researchers, .for-teachers {
+        display: flex;
+        flex-direction: column;
+        margin: 0.5em;
+        border-radius: 0px;
+    }
+
+    .resources {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    .resources img {
+        margin-left: 25%;
+        padding-top: 1em;
+        border-radius: 0%;
+    }
+
+    .resources-info {
+        display: inline;
+    }
+
+    .about-us-home {
+        padding: 1.5em;
+    }
+}
