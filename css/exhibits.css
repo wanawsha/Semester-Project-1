@@ -38,7 +38,8 @@ h1 {
 }
 
 img {
-    max-width: 45%;
+    /*max-width: 45%;*/
+    width: 45%;
     height: auto;
     
 }
@@ -74,18 +75,46 @@ img {
 
 @media (max-width: 600px) {
 
+    .welcome-exhibits {
+        background-size: 100% 30vh;
+        background-repeat: no-repeat;
+        background-position: top;
+        min-height: 30vh;
+    }
+
+    .welcome-exhibits h1 {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        text-align: center;
+        font-size: 2.3em;
+        color: #fff;
+        width: 90vw;
+    }
+
     .welcome-exhibits-info {
-        padding: 1em;
+        padding: 0em 1em;
+    }
+
+    .welcome-exhibits-info p {
+        font-size: 1.4em;
+        line-height: 1.8em;
     }
 
     .exhibition-space {
         display: inline-block;
-        margin: 1em;
+        margin: 1em 0.5em;
+        font-size: 1.3em;
+    }
+
+    .exhibition-space h3 {
+        text-align: center;
     }
 
     .exhibition-space img {
-        margin-left: 27%;
-        border-radius: 0%;
-        padding-top: 0.5em;
+        border-radius: 0;
+        padding: 0.5em;
+        margin: auto;
+        min-width: 95%;
     }
 }

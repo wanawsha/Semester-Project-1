@@ -5,6 +5,10 @@ body {
     margin: 0px;
 }
 
+img {
+    max-width: 100%;
+}
+
 main {
     background-color: #E2F3FF;
 }
@@ -67,8 +71,8 @@ main {
  }
 
  .departments-container {
-    max-width: 15em;
-    width: 100%;
+    /*max-width: 15em;*/
+    width: 80%;
     margin: 1em;
     padding: 1em;
     border-radius: 0.2em;
@@ -107,7 +111,8 @@ main {
 }
 
 .resources img {
-    max-width: 50%;
+    /*max-width: 50%;*/
+    width: 50%;
 }
 
 .resources h1 {
@@ -169,16 +174,8 @@ main {
   
     .home-welcome {
         background-size: 100% 30vh;
-
         background-repeat: no-repeat;
         background-position: top;
-    }
-
-    .home-welcome h1 {
-        font-size: 1.5em;
-        color: var(--primary-color);
-        max-width: 70vw;
-        left: 50%;   
     }
 
     .for-kids, .for-researchers, .for-teachers {
@@ -191,6 +188,13 @@ main {
     .resources h1 {
         text-align: center;
     
+    }
+
+    .resources img {
+        border-radius: 0;
+        padding: 0.5em;
+        margin: auto;
+        min-width: 95%;
     }
 
     .departments-main {
@@ -209,28 +213,53 @@ main {
 
     .about-us-home {
         padding: 1em;
+        font-size: 1.5em;
     }
 }
 
-@media (min-width: 601px) and (max-width:800px) {
-    
+@media (min-width: 601px) and (max-width:850px) {
 
+
+    .home-welcome {
+        background-size: 100% 30vh;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+    
+    .home-welcome h1 {
+        font-size: 2em;
+        color: var(--primary-color);
+        text-align: center;
+    }
+    
+    .departments-headline {
+        font-size: 2em;
+        margin: auto 1em;
+        width: 90vw
+    }
 
     .departments-main {
         display: flex;
         flex-wrap: wrap;
-        margin-left: 9%; 
-        padding: 1em 2em;
+        margin: auto; 
+        /*padding: 1em 2em;*/
+        width: 95vw;
     }
 
     .departments-container {
-        
+        width: 90vw;
+        font-size: 1.7em;
     }
 
+    .departments-container h3 {
+        text-align: center;
+        font-size: 1.7em;
+        margin-top: 0.5em;
+    }
 
     .for-kids, .for-researchers, .for-teachers {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin: 0.5em;
         border-radius: 0px;
     }
@@ -240,10 +269,16 @@ main {
         margin: auto;
         width: 100%;
     }
+
+    .resources h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+    
     .resources img {
-        margin-left: 25%;
-        padding-top: 1em;
-        border-radius: 0%;
+        margin: 1em auto;
+        border-radius: 0;
+        width: 90%
     }
 
     .resources-info {

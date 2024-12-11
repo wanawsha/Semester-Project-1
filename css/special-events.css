@@ -49,3 +49,57 @@ body {
     font-size: 2.3em;
     color: #fff;
 }
+
+@media (max-width: 600px) {
+
+
+    .welcome-events {
+        background-size: 100% 30vh;
+        background-repeat: no-repeat;
+        background-position: top;
+        min-height: 30vh;
+    }
+
+    .welcome-events h1 {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        text-align: center;
+        font-size: 2.3em;
+        color: #fff;
+        width: 90vw;
+    }
+
+    .headline h2 { 
+        font-size: 1.2em;
+        margin-bottom: 0;
+    }
+
+    .headline {
+        color: #FFF1DE;
+        margin: 0.5em;
+        font-size: 2em;
+        padding: 0.5em
+    }
+
+    .events-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin: 1em auto;
+    }
+
+    .events-section {
+        margin: 1em auto;
+        border-radius: 0.5em;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: auto;  
+        line-height: 1.5em;
+    }
+
+    .events-section h3 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+}
