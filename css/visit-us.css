@@ -22,7 +22,7 @@ body {
     height: auto;
     background-size: cover; 
     background-position: center center;
-    min-height: 75vh;
+    height: 75vh;
 }
 
 .visit-headline {
@@ -41,3 +41,44 @@ body {
     color: #fff;
 }
 
+@media (max-width: 800px) {
+
+    .visit-header {
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: top;
+        height: 30vh;
+    }
+
+    /*.visit-header h1 {
+        position: absolute;
+        top: 25%;
+        left: 50%;*/
+    
+
+    .visit-header h1 {
+        font-size: 2em;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .visit-headline {
+        margin: 0.5em;
+        font-size: 1.7em;
+    }
+
+    .visit-info {
+        border-radius: 0%;
+        margin-bottom: 1em;
+    }
+
+    .visit-info h3 {
+        font-size: 1.7em;
+    }
+
+    .visit-info p {
+        font-size: 1.5em;
+    }
+}

@@ -98,3 +98,58 @@ footer {
 footer a {
     color:#fff;
 }
+
+
+@media (max-width: 1000px) {
+
+    .contact-welcome {
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: top;
+        min-height: 30vh;
+    }
+
+    .contact-welcome h1  {
+        font-size: 2em;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .contact-main {
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+
+    .contact-main p {
+        width: 80%;
+    }
+
+    .contact-form input, .contact-form textarea {
+        padding-right: 0%;
+    }
+
+    form {
+        padding: 0;
+    }
+
+    input {
+        width: 60%;
+    }
+    .cta {
+        width: 80%;
+        margin: auto;
+    }  
+}
+
+@media (max-width: 1200px) {
+    
+    .contact-welcome {
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: top;
+        height: 30vh;
+    }
+}

@@ -51,7 +51,8 @@ img {
     height: auto;
     background-size: cover; 
     background-position: center center;
-    min-height: 75vh;
+    /*min-height: 75vh;*/
+    height: 75vh;
 }
 
 .welcome-exhibits h1 {
@@ -73,23 +74,22 @@ img {
     font-size: 1.8em;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 
     .welcome-exhibits {
-        background-size: 100% 30vh;
+        background-size: 100% auto;
         background-repeat: no-repeat;
         background-position: top;
-        min-height: 30vh;
+        height: 30vh;
     }
 
     .welcome-exhibits h1 {
+        font-size: 2em;
         position: absolute;
-        top: 30%;
+        top: 35%;
         left: 50%;
+        transform: translate(-50%, -50%);
         text-align: center;
-        font-size: 2.3em;
-        color: #fff;
-        width: 90vw;
     }
 
     .welcome-exhibits-info {
@@ -116,5 +116,26 @@ img {
         padding: 0.5em;
         margin: auto;
         min-width: 95%;
+    }
+}
+
+@media (max-width: 1200px) {
+    
+    .welcome-exhibits {
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: top;
+        height: 30vh;
+    }
+
+    .welcome-exhibits h1 {
+        font-size: 2em;
+        position: relative;
+        margin: 0%;
+        text-align: center;
+    }
+
+    .welcome-exhibits-info {
+        margin: 0 2em;
     }
 }

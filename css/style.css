@@ -13,7 +13,7 @@ img {
 
 .logo {
     max-width: 3em;
-    height: auto;
+    height: auto
 }
 
 nav {
@@ -21,7 +21,7 @@ nav {
     width: 100%;
     background-color: var(--secondary-color);
     display: flex;
-    justify-content: right; 
+    justify-content: right;
 }
 
 nav li {
@@ -48,6 +48,12 @@ header {
     padding: 0em 1.3em;
 }
 
+header p {
+    font-size: 1.5em;
+    width: 100%;
+    text-transform: uppercase;
+}
+
 footer {
     display: flex;
     justify-content: space-evenly;
@@ -69,4 +75,50 @@ footer li {
 .current-page {
     text-decoration: underline;
     color: var(--primary-color);
+}
+
+
+
+@media (max-width: 600px) {
+    
+    nav a {
+        font-size: 0.6em;
+    }
+}
+
+
+@media (max-width: 1000px) {
+
+    nav a {
+        font-size: 1.4em;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header p {
+        margin: 0em auto;
+    }
+
+    nav ul {
+        font-size: 0.9em;
+        width: 100%;
+        padding: 0;
+        line-height: 2;
+    }
+
+    .logo {
+        margin:  1em auto;
+    }
+}
+
+@media (max-width: 599px) {
+
+    nav a {
+        font-size: 1.2em;
+    }
+
 }

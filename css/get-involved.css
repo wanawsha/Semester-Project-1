@@ -48,3 +48,13 @@ body {
 .get-involved-info div {
     line-height: 2;
 }
+
+@media (max-width: 1000px) {
+
+    .get-involved-welcome {
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: top;
+        height: 30vh;
+    }
+}

@@ -38,7 +38,7 @@ body {
     height: auto;
     background-size: cover; 
     background-position: center center;
-    min-height: 75vh;   
+    height: 75vh;   
 }
 
 .welcome-events h1 {
@@ -50,24 +50,33 @@ body {
     color: #fff;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 
 
     .welcome-events {
-        background-size: 100% 30vh;
+        background-size: 100% auto;
         background-repeat: no-repeat;
         background-position: top;
-        min-height: 30vh;
+        height: 30vh;
+        
     }
 
-    .welcome-events h1 {
+    /*.welcome-events h1 {
         position: absolute;
         top: 30%;
         left: 50%;
         text-align: center;
         font-size: 2.3em;
         color: #fff;
-        width: 90vw;
+        width: 90vw
+    }*/
+
+    .welcome-events h1 {
+        font-size: 2em;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .headline h2 { 
@@ -103,3 +112,19 @@ body {
         text-align: center;
     }
 }
+
+@media (max-width: 1200px) {
+    
+    .contact-welcome {
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 599px) {
+
+    .welcome-events h1 {
+        font-size: 1.8em;
+    }
+}
+

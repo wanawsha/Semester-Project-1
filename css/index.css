@@ -19,7 +19,7 @@ main {
     height: auto;
     background-size: cover; 
     background-position: center center;
-    min-height: 85vh;
+    height: 85vh;
     margin: 0%;
 }
 
@@ -27,7 +27,8 @@ main {
     font-family: "IBM Plex Sans Condensed";
     font-weight: 300;
     position: absolute;
-    max-width: 50%;
+    /*max-width: 50%;*/
+    width: 50%;
     top: 80%;
     left: 30%;
     transform: translate(-50%, -50%);
@@ -173,9 +174,19 @@ main {
 
   
     .home-welcome {
-        background-size: 100% 30vh;
+        background-size: 100% auto;
         background-repeat: no-repeat;
         background-position: top;
+        height: 20vh;
+
+    }
+
+    .home-welcome h1 {
+        font-size: 1.3em;
+        width: 80%;
+        left: 50%;
+        text-align: center;
+
     }
 
     .for-kids, .for-researchers, .for-teachers {
@@ -187,6 +198,7 @@ main {
 
     .resources h1 {
         text-align: center;
+
     
     }
 
@@ -221,17 +233,24 @@ main {
 
 
     .home-welcome {
-        background-size: 100% 30vh;
+        background-size: 100% auto;
         background-repeat: no-repeat;
         background-position: top;
+        min-height: 70vh;
     }
     
     .home-welcome h1 {
         font-size: 2em;
-        color: var(--primary-color);
+        color: #fff;
+        position: absolute;
+        left: 50%;
+        width: 90%;
+        line-height: 1.7em;
         text-align: center;
+       
     }
     
+
     .departments-headline {
         font-size: 2em;
         margin: auto 1em;
@@ -287,5 +306,25 @@ main {
 
     .about-us-home {
         padding: 1.5em;
+    }
+}
+
+@media (max-width: 1200px) {
+    
+    .home-welcome {
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: top;
+        height:30vh;
+    }
+
+    .home-welcome h1 {
+        position: absolute;
+        top: 45%;
+    }
+
+    #visit-us-cta {
+        position: absolute;
+        top: 30%
     }
 }
