@@ -38,7 +38,7 @@ body {
     height: auto;
     background-size: cover; 
     background-position: center center;
-    height: 75vh;   
+    height: 75vh; 
 }
 
 .welcome-events h1 {
@@ -57,7 +57,7 @@ body {
         background-size: 100% auto;
         background-repeat: no-repeat;
         background-position: top;
-        height: 30vh;
+        max-height: 30vh;
         
     }
 

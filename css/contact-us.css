@@ -13,7 +13,7 @@ main {
 .contact-main {
     display: flex;
     flex-direction: row;
-    padding: 7em;
+    padding: 2em;
     background-color: var(--secondary-color);
 
 }
@@ -106,12 +106,11 @@ footer a {
         background-size: 100% auto;
         background-repeat: no-repeat;
         background-position: top;
-        min-height: 30vh;
+        height: 30vh;
     }
 
     .contact-welcome h1  {
         font-size: 2em;
-        position: absolute;
         top: 35%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -119,14 +118,20 @@ footer a {
 
     .contact-main {
         display: block;
-        width: 80%;
+        max-width: 80%;
         margin: auto;
+        background-color: var(--primary-color);
     }
 
     .contact-main p {
         width: 80%;
     }
 
+    .contact-form, .contact-info {
+        margin: 1em auto;
+        width: 80%;
+        
+    }
     .contact-form input, .contact-form textarea {
         padding-right: 0%;
     }
@@ -138,10 +143,16 @@ footer a {
     input {
         width: 60%;
     }
+    
     .cta {
-        width: 80%;
+        width: 100%;
         margin: auto;
+
     }  
+
+    #message  {
+        width: 100%;
+    }
 }
 
 @media (max-width: 1200px) {

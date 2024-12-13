@@ -191,7 +191,7 @@ main {
 
     .for-kids, .for-researchers, .for-teachers {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin: 0.5em;
         border-radius: 0px;
     }
@@ -206,7 +206,7 @@ main {
         border-radius: 0;
         padding: 0.5em;
         margin: auto;
-        min-width: 95%;
+        min-width: 90%;
     }
 
     .departments-main {
