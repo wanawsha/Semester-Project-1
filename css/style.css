@@ -12,8 +12,15 @@ img {
 }
 
 .logo {
-    max-width: 3em;
-    height: auto
+    
+    
+    justify-items: end;
+}
+
+.logo-wrapper {
+    display: flex;
+    flex-direction: row;
+    
 }
 
 nav {
