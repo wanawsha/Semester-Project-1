@@ -205,7 +205,7 @@ main {
     .resources img {
         border-radius: 0;
         padding: 0.5em;
-        margin: auto;
+        margin: 1em auto;
         min-width: 90%;
     }
 
@@ -315,7 +315,7 @@ main {
         background-size: 100% auto;
         background-repeat: no-repeat;
         background-position: top;
-        height:30vh;
+        height:50vh;
     }
 
     .home-welcome h1 {
