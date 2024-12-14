@@ -1,9 +1,9 @@
 body {
-    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-family: "IBM Plex Sans Condensed", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1, h2, h3 {
-    font-family: "Tektur", sans-serif;
+    font-family: "Tektur";
     text-decoration: underline;
 }
 
