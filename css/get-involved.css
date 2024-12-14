@@ -23,15 +23,9 @@ body {
     font-size: 2em;
 }
 
-.get-involved-welcome p {
-    font-weight: 300;
-    position: absolute;
-    width: 30%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    text-align: center;
+.get-involved-welcome div {
+    width: 80%;
+    
 }
 
 .get-involved-info {
@@ -58,27 +52,8 @@ body {
         background-position: top;
         height: 55vh;
     }
-
-    .get-involved-welcome h1 {
-        
-    }
-
-    .get-involved-welcome p {
-        text-align: left;
-        margin-top:40%;
-        width: 80%;
-        font-size: 1.4em;
-    }
 }
 
-@media (max-width: 470px) {
-    
-    .get-involved-welcome h1 {
-        position: absolute;
-        top: 35%;
-        left:27%;
-    }
-}
 
 @media (min-width: 550px) and (max-width: 999px) {
 
