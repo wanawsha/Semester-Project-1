@@ -3,15 +3,11 @@
 
 body {
     margin: 0px;
-    background-color: var(--primary-color);
+    background-color: #E2F3FF;
 }
 
 img {
     max-width: 100%;
-}
-
-main {
-    
 }
 
 .home-welcome {
@@ -28,7 +24,6 @@ main {
     font-family: "IBM Plex Sans Condensed";
     font-weight: 300;
     position: absolute;
-    /*max-width: 50%;*/
     width: 50%;
     top: 80%;
     left: 30%;
@@ -40,7 +35,7 @@ main {
 
 #visit-us-cta {
     position: absolute;
-    top: 48%;
+    top: 55%;
     left: 49%;
     transform: translate(-50%, -50%);
     font-size: 2em;
@@ -68,12 +63,10 @@ main {
  .departments-main {
     display: flex;
     flex-direction: row;
-    /*flex-wrap: wrap;*/
     margin: 2em;
  }
 
  .departments-container {
-    /*max-width: 15em;*/
     width: 80%;
     margin: 1em;
     padding: 1em;
@@ -114,7 +107,6 @@ main {
 }
 
 .resources img {
-    /*max-width: 50%;*/
     width: 50%;
 }
 
