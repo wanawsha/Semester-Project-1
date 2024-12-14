@@ -45,7 +45,7 @@ img {
 
 
 .welcome-exhibits {
-    background-image: url(/images/exhibtion-spaces-purple.jpg);
+    background-image: url(/..images/exhibtion-spaces-purple.jpg);
     width: 100%;
     height: auto;
     background-size: cover; 

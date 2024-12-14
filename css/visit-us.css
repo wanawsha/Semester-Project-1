@@ -17,7 +17,7 @@ body {
 }
 
 .visit-header {
-    background-image: url(/images/visit-us.jpg);
+    background-image: url(/..images/visit-us.jpg);
     width: 100%;
     height: auto;
     background-size: cover; 
