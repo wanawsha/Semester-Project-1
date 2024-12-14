@@ -29,7 +29,7 @@ body {
 }
 
 .welcome-events {
-    background-image: url(/..images/dinosaur-special-events.jpg);
+    background-image: url(../images/dinosaur-special-events.jpg);
     width: 100%;
     height: auto;
     background-size: cover; 

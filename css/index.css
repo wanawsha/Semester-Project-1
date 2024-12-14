@@ -11,7 +11,7 @@ img {
 }
 
 .home-welcome {
-    background-image: url(/..images/star-exhibition.jpg);
+    background-image: url(../images/star-exhibition.jpg);
     width: 100%;
     height: auto;
     background-size: cover; 
