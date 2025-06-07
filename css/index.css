@@ -63,14 +63,23 @@ img {
  .departments-main {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: 2em;
  }
 
  .departments-container {
+    max-width: 200px;
     width: 80%;
-    margin: 1em;
+    margin: 1em auto;
     padding: 1em;
     border-radius: 0.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+ .departments-container h3 {
+    margin: 0;
  }
 
 
@@ -107,7 +116,9 @@ img {
 }
 
 .resources img {
-    width: 50%;
+    max-width: 100%;
+    aspect-ratio: 15/9;
+    object-fit: cover; 
 }
 
 .resources h1 {
@@ -246,7 +257,7 @@ img {
     }
 
 
-    .departments-headline {
+    /* .departments-headline {
         font-size: 2em;
         margin: auto 1em;
         width: 90vw
@@ -268,7 +279,7 @@ img {
         text-align: center;
         font-size: 1.7em;
         margin-top: 0.5em;
-    }
+    } */
 
     .for-kids, .for-researchers, .for-teachers {
         display: flex;
