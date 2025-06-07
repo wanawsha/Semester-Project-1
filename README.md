@@ -8,7 +8,5 @@ The goal of this project was to plan, design, and build a responsive information
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
 - HTML
 - CSS
